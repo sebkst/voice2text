@@ -26,7 +26,7 @@ while [ true ]; do
    echo " :-("
   else
    echo "."
-   if [ -z $LOG]; then
+   if [ -z $LOG ]; then
      echo "${COMMANDS}"
    else
      echo ${COMMANDS}
