@@ -31,6 +31,10 @@ while [ true ]; do
    else
      echo ${COMMANDS}
      echo "${COMMANDS}" >> $LOG
-    fi
+   fi
+   if [ "$COMMANDS" == "exit" ]; then
+     break
+   fi
+
   fi
 done
