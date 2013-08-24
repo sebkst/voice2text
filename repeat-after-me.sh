@@ -31,9 +31,12 @@ while [ true ]; do
    if [ -z "$LOG" ]; then
      echo "."
    else
-     echo "${COMMANDS}" >> $LOG
+     echo "${COMMANDS}" >> $LOG || LOG=""
      echo "."
     fi
    echo "${COMMANDS}"
+   if [ "$COMMANDS" == "exit" ]; then
+     break
+   fi
   fi
 done
