@@ -20,8 +20,8 @@ You should have received a copy of the GNU General Public License along with voi
 Description
 -----------
 
-Voice2text converts voice recordered from microphone to text using Google Voice API.
-RepeatAfterMe does what it is named after !
+* Voice2text converts voice recordered from microphone to text using Google Voice API.
+* RepeatAfterMe does what it is named after !
 
 
 Dependencies
@@ -33,7 +33,6 @@ Script requires:
 * flac - for convertign recordered wav file to flac format
 * curl - for sending HTTP requests with flac file to Google
 * grep, echo, bash - basic shell tools for parsing text answered
-
 * festival - for repeating and making the computer speak (in english by default)
 
 To install all deps on Ubuntu run:
